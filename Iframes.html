@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Developing IFrame Port</title>
+<style>
+    body{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align:center;
+        background-color:teal;
+        color:aliceblue;
+        padding:18px;
+    }
+    h1{
+        font-size:3.9rem;
+        margin-bottom:20px;
+    }
+    .gal-container{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+        gap:15px;
+        padding:20px;
+        max-width:100px;
+        margin:auto;
+    }
+    .iframe-container{
+        width:100%;
+        height:250px;
+        
+    }
+    iframe{
+        width:100%;
+        height:100%;
+        border:none;
+    }
+    @media(max-width:760px){
+.gal-container{
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+}
+    }
+</style>
+    </head>
+    <body>
+        <h1>Interactive IFrame Page</h1>
+        <div class="gal-container">
+            <div class="iframe-container">
+                <iframe src="WhatsApp Image 2024-02-06 at 12.41.06_e11f757c.jpg"title="Image"></iframe>
+            </div>
+            <div class="iframe-container">
+                <iframe src="https://wallpapercave.com/wp/wp7158525.jpg"title="Itachi"></iframe>
+            </div>
+            <div class="Iframe-container">
+                <iframe src="https://wallpapercave.com/wp/wp5559990.jpg"title="Itachi2"></iframe>
+            </div>
+        </div>
+        <h2>Google Map Iframe</h2>
+        <div class="Iframe-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31397.948329767587!2d77.96945790000002!3d10.362379200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00aa57a54881e3%3A0x765a14068982e6e7!2sDindigul%2C%20Tamil%20Nadu%20624001!5e0!3m2!1sen!2sin!4v1736223877400!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+        </div>
+        <h2>YouTube Video Iframe</h2>
+        <div class="Iframe-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wtXFWU4r9FQ?si=mhJ7Qz3i-YYd4p2n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    
+       
+    </body>
+</html>
